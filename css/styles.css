@@ -1,0 +1,16 @@
+:root {
+    --amarillo: #FCD116;
+    --azul: #003893;
+    --rojo: #CE1126;
+    --fondo: #f4f6f9;
+    --blanco: #ffffff;
+    --texto: #1e293b;
+    --texto-secundario: #475569;
+    --borde: #e2e8f0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
