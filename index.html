@@ -9,7 +9,7 @@
 <body>
     <header class="navbar">
         <div class="container nav-content">
-            <h1 class="logo">co Descubre Colombia</h1>
+            <h1 class="logo"> Descubre Colombia</h1>
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html" class="active">Departamentos</a></li>
@@ -25,5 +25,21 @@
         </section>
 
         <!--Conteo de departamentos por Regiones-->
-        <section id="resumen-regiones" class=""
+        <section id="resumen-regiones" class="stats-container" aria-label="Resumen por regiones"></section>
+
+        <!--Estado de carga y manejo de errores-->
+        <div id="estado-carga" class="status-box loading">Cargando departamentos desde la API...</div>
+        <div id="estado-error" class="status-box error hidden"></div>
+
+        <!--Contenedor dinamico del DOM-->
+        <section id="lista-departamentos" class="grid-cards"></section>
+
     </main>
+
+    <footer class="footer">
+        <p>Datos obtenidos de <a href="https://api-colombia.com/" target="_blank" rel="noopener noreferrer">API Colombia </a></p>
+
+    </footer>
+    <script src="js/departamentos.js"></script>
+</body>
+</html>   
