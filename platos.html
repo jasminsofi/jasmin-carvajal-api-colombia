@@ -9,7 +9,7 @@
 <body>
     <header class="navbar">
         <div class="container nav-content">
-            <h1 class="logo">🇨🇴 Descubre Colombia</h1>
+            <h1 class="logo"> Descubre Colombia</h1>
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html">Departamentos</a></li>
@@ -18,3 +18,25 @@
             </nav>
         </div>
     </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Sabores de Colombia</h2>
+            <p>Un recorrido gastronómico por los platos más representativos de nuestras regiones.</p>
+            <!-- Extra: Contador total de platos -->
+            <div id="contador-platos" class="badge-counter hidden"></div>
+        </section>
+
+        <!-- Estado de carga y manejo de errores -->
+        <div id="estado-carga" class="status-box loading">Cargando platos típicos desde la API...</div>
+        <div id="estado-error" class="status-box error hidden"></div>
+        <!-- Contenedor dinámico del DOM -->
+        <section id="lista-platos" class="grid-cards"></section>
+    </main>
+    <footer class="footer">
+        <p>Datos obtenidos de <a href="https://api-colombia.com/" target="_blank" rel="noopener noreferrer">API Colombia</a></p>
+    </footer>
+
+    <script src="js/platos.js"></script>
+</body>
+</html>
