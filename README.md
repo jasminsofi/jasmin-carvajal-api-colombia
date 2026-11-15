@@ -12,7 +12,9 @@ Aplicación web informativa sobre Colombia desarrollada con HTML5, CSS3 y JavaSc
 * **CSS3:** Diseño responsivo mediante CSS Grid, Flexbox y variables CSS.
 * **JavaScript (ES6+):** Consumo de API REST con `fetch`, manipulación dinámica del DOM, indicadores de carga y manejo de errores con `.catch()`.
 
-## Instrucciones de uso
-1. Clonar este repositorio:
-   ```bash
-   git clone [https://github.com/tu-usuario/nombre-apellido-api-colombia.git](https://github.com/tu-usuario/nombre-apellido-api-colombia.git)
+# 4. Instrucciones de uso
+1. Clonar o descargar este repositorio en tu equipo local.
+2. Abrir la carpeta del proyecto en Visual Studio Code.
+3. Abrir el archivo `index.html` directamente en tu navegador web preferido (o usar la extensión *Live Server*).
+4. Utilizar la barra de navegación superior para alternar entre el **Explorador de Departamentos** y **Sabores Típicos**.
+
